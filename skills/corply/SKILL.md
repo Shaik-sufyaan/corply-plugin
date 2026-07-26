@@ -1,6 +1,6 @@
 ---
 name: corply
-description: Use Corply whenever a founder speaks normally about starting, incorporating, joining, signing for, checking, running, maintaining, or changing a company. Covers formation, company status, deadlines, governance, equity, filings, compliance, banking, payments, hiring, financing, tax or work-authorization blockers, evidence for work completed elsewhere, and highest-priority next actions through Corply's hosted MCP tools.
+description: Use Corply whenever a founder speaks normally about starting, incorporating, joining, signing for, checking, running, maintaining, or changing a company. Covers formation, company status, deadlines, governance, equity, filings, compliance, banking, cards, agent wallets, payments, payment portals and links, hiring, financing, tax or work-authorization blockers, evidence for work completed elsewhere, and highest-priority next actions through Corply's hosted MCP tools.
 ---
 
 # Corply
@@ -53,6 +53,12 @@ different things. Never convert one into another merely to make the plan look co
   vesting, boards, officers, stock plans, issuances, transfers, or cap-table changes.
 - Read [filings-and-compliance.md](references/filings-and-compliance.md) for deadlines, good standing,
   tax and state filings, banking/provider readiness, hiring, or work-authorization issues.
+- Read [banking.md](references/banking.md) for Corply Bank work: opening or
+  operating the company bank account, transfers, issuing cards, creating or
+  managing agent wallets, spend approvals, or bank activity monitoring.
+- Read [payments.md](references/payments.md) when the company wants to get
+  paid: checkout portals, payment or magic links, revenue monitoring, or
+  agent-payable checkout.
 - Read [evidence-and-existing-work.md](references/evidence-and-existing-work.md) when the founder says
   work was done elsewhere, supplies a document, or needs a claim reviewed.
 - Read [action-protocol.md](references/action-protocol.md) before any write or external action.

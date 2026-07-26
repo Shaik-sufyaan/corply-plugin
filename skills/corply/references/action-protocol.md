@@ -12,7 +12,11 @@ Proceed when the action is in scope and Corply exposes it:
 - reversible application or company-fact saves;
 - recording a fact the founder explicitly supplied or confirmed;
 - evidence upload and evidence-claim submission;
-- plan or briefing refreshes.
+- plan or briefing refreshes;
+- an in-policy `wallet_spend` from an active agent wallet — the wallet's
+  budget, caps, categories, and expiry are the founder's standing
+  authorization; any spend outside that policy stops and waits for
+  `respond_to_approval`.
 
 An explicit answer to a focused question is sufficient authority to record that answer. Do not add
 an extra "are you sure?" unless the resulting action is in the consequential list below.

@@ -7,8 +7,8 @@ import { fileURLToPath } from "node:url";
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const PUBLIC_URL = "https://corply.dev/mcp";
 const LIVE_URL = process.env.CORPLY_MCP_URL || PUBLIC_URL;
-const EXPECTED_PLUGIN_VERSION = "0.4.3";
-const EXPECTED_MCP_VERSION = "0.4.2";
+const EXPECTED_PLUGIN_VERSION = "0.5.0";
+const EXPECTED_MCP_VERSION = "0.7.0";
 const errors = [];
 
 const REQUIRED_PUBLIC_TOOLS = [
@@ -30,6 +30,18 @@ const REQUIRED_PUBLIC_TOOLS = [
   "record_existing_completion",
   "get_cap_table",
   "import_cap_table",
+  "open_bank_account",
+  "bank_transfer",
+  "get_bank_overview",
+  "issue_card",
+  "create_agent_wallet",
+  "update_agent_wallet",
+  "wallet_spend",
+  "respond_to_approval",
+  "list_bank_activity",
+  "create_payment_portal",
+  "create_payment_link",
+  "list_portal_payments",
 ];
 
 const PRIVATE_REVIEWER_TOOLS = [

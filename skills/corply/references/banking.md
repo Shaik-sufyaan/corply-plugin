@@ -32,6 +32,11 @@ authority to agents and monitor it, rather than approving every purchase.
   reason. Surface it to the founder immediately; never retry the spend and
   never call `respond_to_approval` without the founder's explicit decision
   in this session.
+- Wallet-card payments at Corply checkouts never file approvals: an
+  out-of-policy checkout payment declines on the spot, and a
+  category-restricted wallet declines at checkouts entirely (checkout
+  purchases carry no category) — use `wallet_spend` for categorized
+  spending.
 - Approving executes the held spend at once; report the posted transaction.
 - Use `list_bank_activity` (optionally filtered by wallet) when the founder
   asks what an agent has been doing with its money.
@@ -40,5 +45,6 @@ authority to agents and monitor it, rather than approving every purchase.
 
 Outbound transfers require sufficient balance; a decline reports why. Virtual
 cards return full card details in the tool result; physical cards ship to the
-address on file. Cards and wallet cards work anywhere cards are accepted,
-including Corply Payments checkout portals.
+address on file. The wallet's virtual card pays at any Corply Payments
+checkout. Member cards are for spending elsewhere; at a Corply checkout, use
+the wallet card or any external card.

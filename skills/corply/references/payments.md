@@ -16,8 +16,8 @@ links, and revenue monitoring.
 - Revenue truth comes only from `list_portal_payments` (charges, totals, the
   agent share of revenue). Never assert that a link was paid without it.
 - Portals and links are reversible to create; no extra confirmation is
-  needed. Confirm before disabling or changing anything a customer already
-  has in hand.
+  needed. There is no tool yet to edit or disable a portal or link — treat
+  every live link a customer holds as payable.
 - Every portal is agent-payable by default: agents discover requirements at
-  the agentEndpoint (HTTP 402) and pay with any card, including a Corply
+  the agentEndpoint (HTTP 402) and pay with any external card or a Corply
   agent-wallet card. Mention this when the founder asks how agents buy.
